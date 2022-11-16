@@ -1,6 +1,6 @@
 package parcial3
 
-mport java.util.Scanner;
+Import java.util.Scanner;
 
 public class parcial3
 {
@@ -34,15 +34,15 @@ public class parcial3
         int promedio;//se declara el promedio
         int p1,p2,p3,p4,p5; // se declaran variables para almecenar
         System.out.println("ingreso valor del pro:");// se solicita vallores
-        p1=promediar.nextInt();//se almacenan datos
+        v1=promediar.nextInt();//se almacenan datos
         System.out.println("ingreso valor del pro:");// se solicita vallores
-        p2=promediar.nextInt();//se almacenan datos
+        v2=promediar.nextInt();//se almacenan datos
         System.out.println("ingreso valor del pro:");// se solicita vallores
-        p3=promediar.nextInt();//se almacenan datos
+        v3=promediar.nextInt();//se almacenan datos
         System.out.println("ingreso valor del pro:");// se solicita vallores
-        p4=promediar.nextInt();//se almacenan datos
+        v4=promediar.nextInt();//se almacenan datos
         System.out.println("ingreso valor del pro:");// se solicita vallores
-        p5=promediar.nextInt();//se almacenan datos
+        v5=promediar.nextInt();//se almacenan datos
 
         promedio = ((p1+p2+p3+p4+p5)/5);//realizo la operacion
         System.out.println("el valor total es"+promedio); //se imprime el valor
